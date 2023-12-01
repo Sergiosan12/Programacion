@@ -13,7 +13,7 @@ public class Transporte {
     
     peso=Float.parseFloat(JOptionPane.showInputDialog("Peso do paquete en kg"));
     
-    if(peso>5&&peso<0){
+    if(peso>5||peso<0){
         JOptionPane.showMessageDialog(null, "Peso non válido, entrega rexeitada");
     }
     else{
@@ -44,7 +44,10 @@ public class Transporte {
             default:
                 JOptionPane.showMessageDialog(null, "Opción incorrecta");
         }
+        if(zona>=1&&zona<=5){
         JOptionPane.showMessageDialog(null, "Peso do paquete: "+peso+"kg"+"\nPrezo do envío: "+prezo+"€");
+        }
+        
     }
         
 }
