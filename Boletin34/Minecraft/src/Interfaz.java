@@ -15,6 +15,7 @@ public class Interfaz {
         frame = new JFrame("Gestor de Minecraft");
         frame.setSize(400, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
 
         JPanel panel = new JPanel();
         frame.add(panel);
