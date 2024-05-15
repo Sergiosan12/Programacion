@@ -65,6 +65,9 @@ public class Aplicacion extends JFrame {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
+        setSize(400, 500);
+        setLocationRelativeTo(null);
         setVisible(true);
+
     }
 }

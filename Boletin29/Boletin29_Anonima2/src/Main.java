@@ -7,6 +7,7 @@ public class Main {
         Validador validador = new Validador() {
             @Override
             public boolean validar(int numero) {
+
                 return numero % 2 == 0;
             }
         };
@@ -15,7 +16,7 @@ public class Main {
         do {
             System.out.println("Ingrese un número (0 para salir):");
             while (!scanner.hasNextInt()) {
-                System.out.println("Eso no es un número. Inténtalo de nuevo:");
+                System.out.println("Eso no es un número entero. Inténtalo de nuevo:");
                 scanner.next();
             }
             numero = scanner.nextInt();

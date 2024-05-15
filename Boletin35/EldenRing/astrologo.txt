@@ -1,0 +1,8 @@
+Fuerza:8
+Destreza:12
+Inteligencia:16
+Vigor:6
+Mente:9
+Aguante:15
+Fe:7
+Arcano:9

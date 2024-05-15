@@ -18,7 +18,7 @@ public class InterfazTabla {
         JPanel panel = new JPanel(); // Crear un panel
         frame.add(panel); // Añadir el panel a la ventana
 
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS)); // Establecer el layout del panel
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS)); // Establecer el layout del panel como BoxLayout en eje Y
 
         JPanel panelNombre = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Crear un panel con layout FlowLayout alineado a la izquierda
         JLabel etiquetaNombre = new JLabel("Nombre:"); // Crear una etiqueta
